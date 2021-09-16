@@ -1,0 +1,44 @@
+algoritmo "Media_Hogwarts"
+var
+nome:caractere
+n1, n2, med: real
+inicio
+      Escreva("Digite seu nome: ")
+      Leia(Nome)
+      Escreval(nome, ", Seja bem vindo a Hogwarts, a escola de magia e bruxaria ")
+      EscrevaL("Vamos começar... ")
+      Escreval("++++++++++++++++++")
+      EscrevaL("Primeiramente, digite sua nota em Defesa contra a arte das trevas (DCAT): ")
+      leia(n1)
+      EscrevaL("Muito bem! Agora informe sua nota em Poções: ")
+      leia(n2)
+      med <- (n1 + n2) / 2
+      Escreval("===================================")
+      Escreval(" Sua média de notas é: ", med:4:2)
+      Escreval("===================================")
+       Se (med >= 9.0)entao
+         Escreval("Classificação: A Excelente! ")
+       Senao
+       Se (med >= 8.0)entao
+         Escreval("Classificação: B Ótima! ")
+       Senao
+       Se (med >= 7.0)entao
+           Escreval("Classificação: C Boa! ")
+       Senao
+       Se(Med >= 6.0)entao
+            Escreval("Classificação: D Aceitavel! ")
+       Senao
+       Se(Med >= 5.0)entao
+            Escreval("Classificação: E Abaixo as expectativas! ")
+       Senao
+       Se(Med <= 4.0)entao
+            Escreval("Classificação: F Reprovado! ")
+       Escreval("=================================")
+
+             Fimse
+            FimSe
+           FimSe
+          FimSe
+         Fimse
+        Fimse
+fimalgoritmo
